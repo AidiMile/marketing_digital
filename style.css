@@ -1,0 +1,222 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fce4ec; /* Rosa suave de fondo */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #ff80ab; /* Rosa fuerte y alegre */
+    color: #fff;
+    padding: 25px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra suave y elegante */
+    transition: all 0.3s ease;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .logo h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.3rem;
+    letter-spacing: 2px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+header ul li {
+    margin-left: 25px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 8px 15px;
+    border-radius: 30px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.3); /* Fondo sutil */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+header ul li a:hover {
+    background-color: #f1a7b1; /* Rosa cálido */
+    transform: scale(1.1);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #ff4081; /* Rosa vibrante y energético */
+    color: white;
+    border-bottom: 10px solid #ff80ab; /* Línea de separación estilizada */
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 1.6rem;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.hero .btn-main {
+    display: inline-block;
+    padding: 18px 35px;
+    margin-top: 30px;
+    background-color: #fff;
+    color: #ff4081; /* Rosa fuerte */
+    text-decoration: none;
+    font-size: 1.4rem;
+    border-radius: 40px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+}
+
+.hero .btn-main:hover {
+    background-color: #f1a7b1; /* Rosa cálido */
+    color: white;
+    transform: translateY(-5px);
+}
+
+/* Main Sections */
+.main {
+    padding: 80px 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.7rem;
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: 700;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.about-item {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.about-item:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.about-item h3 {
+    font-size: 1.9rem;
+    margin-bottom: 15px;
+    color: #ff4081; /* Rosa vibrante */
+    font-weight: 700;
+}
+
+.about-item p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Call to Action Section */
+.cta {
+    text-align: center;
+    background-color: #ff80ab; /* Rosa fuerte */
+    padding: 80px 20px;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+.cta h2 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.cta p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    color: #fce4ec; /* Rosa pálido */
+}
+
+.cta .btn-main {
+    padding: 15px 35px;
+    background-color: #fff;
+    color: #ff80ab; /* Rosa fuerte */
+    text-decoration: none;
+    font-size: 1.3rem;
+    border-radius: 40px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.cta .btn-main:hover {
+    background-color: #ff4081; /* Rosa vibrante */
+    color: white;
+    transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+    background-color: #fce4ec; /* Rosa suave */
+    color: #333;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 80px;
+    border-top: 10px solid #ff4081; /* Línea de separación vibrante */
+}
+
+footer .contact-info p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+footer .contact-info a {
+    text-decoration: none;
+    color: #ff4081; /* Rosa vibrante */
+    font-weight: bold;
+}
+
+footer .contact-info a:hover {
+    text-decoration: underline;
+}
